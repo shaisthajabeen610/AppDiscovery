@@ -1,0 +1,35 @@
+td:nth-child(even), th:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+  .export{
+    margin:10px auto;
+    position:relative;
+    left: 50%;
+  }
+  td {
+    padding: 0 15px;
+
+        width: 150px;
+        text-align: center;
+        border: 1px solid black;
+        padding: 5px;
+      
+  }
+  td:nth-child(even), th:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+  td {
+    padding: 0 15px;
+
+        width: 150px;
+        text-align: center;
+        border: 1px solid black;
+        padding: 5px;
+      
+        line-height: 1.15;
+    -webkit-text-size-adjust: 100%
+    }
+
+    body {
+    margin: 0
+    }

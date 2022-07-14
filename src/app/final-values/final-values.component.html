@@ -1,0 +1,31 @@
+
+<table width=100% bgcolour="orange" border="2" cellspacing="3" align="center" display="flex" id="export">
+    <!-- <tr *ngFor="let item of items">
+        <td>{{item.id}}</td>
+        <td>{{item.name}}</td>
+        <td>{{item.desc}}</td>
+   </tr> -->
+    <tr>
+        <th>Applications</th>
+        <th>Score</th>
+        <th>Architecture Complexity</th>
+        <th>Impact</th>
+        <th>Piroritization</th>
+        <th>IaaS Cost Saving</th>
+        <th>PaaS App. Value</th>
+    </tr>
+   
+    <!-- <em *ngFor="let i of arr"></em> -->
+     <tr *ngFor="let obj of arr; let i=index">
+        <td> Application{{i+1}}  </td>
+        <td>{{obj.finalScore}}</td> 
+        <td>{{obj.finalScore}}</td>
+        <td>{{obj.impactScore}}</td>
+        <td>{{obj.prioritization}}</td>
+        <td>{{obj.iaasCost}}</td>
+        <td>{{obj.passApp}}</td> 
+
+    </tr> 
+</table>   
+<div style=" margin: auto; width: 50%;">
+    <button  class="export" (click)="exportexcel()">Download</button></div>
